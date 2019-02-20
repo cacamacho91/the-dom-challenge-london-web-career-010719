@@ -23,23 +23,27 @@
   <button id='<3' > ❤️ </button>
   <button id='pause' > pause </button>
 
-  <ul class='likes'></ul>
+  <ul class='likes'>
+  </ul>
 
   <div>
     <h3>Comments</h3>
-    <div id='list' class='comments'></div>
+    <div id='list' class='comments'>
+      <ul id='comment-list'>
+        <!-- comments get inserted here :) -->
+      </ul>
+    </div>
 
     <h3>Leave a comment</h3>
 
     <form id="comment-form" action="">
-      <input type='text' name="" id="" cols="30" rows="10">
+      <input type='text' name="" id="comment-text" cols="30" rows="10">
       </br>
       <button id='submit'>submit</button>
     </form>
-
   </div>
 
-  <script src="index.min.js"></script>
+  <!-- <script src="index.min.js"></script> -->
   <script src="challenge.js"></script>
 </body>
 </html>
